@@ -9,3 +9,20 @@ crear una lista desordenada, puedes usar la siguiente etiqueta HTML:
   <li>Elemento 2</li>
   <li>Elemento 3</li>
 </ul>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de cambio de color en HTML</title>
+	<style>
+		/* Estilo para cambiar el color del texto y el color de fondo del párrafo */
+		p {
+			color: blue; /* Cambia el color del texto a azul */
+			background-color: yellow; /* Cambia el color de fondo a amarillo */
+		}
+	</style>
+</head>
+<body>
+	<p>Este es un ejemplo de cambio de color en HTML.</p>
+</body>
+</html>
