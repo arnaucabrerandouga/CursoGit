@@ -26,3 +26,20 @@ crear una lista desordenada, puedes usar la siguiente etiqueta HTML:
 	<p>Este es un ejemplo de cambio de color en HTML.</p>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Página Web</title>
+  </head>
+  <body>
+    <h1>Bienvenidos a mi Página Web</h1>
+    <p>Esta es una página web sencilla creada con HTML.</p>
+    <ul>
+      <li>Primer elemento de la lista</li>
+      <li>Segundo elemento de la lista</li>
+      <li>Tercer elemento de la lista</li>
+    </ul>
+    <img src="imagen.jpg" alt="Una imagen">
+  </body>
+</html>
