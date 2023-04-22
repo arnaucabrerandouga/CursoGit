@@ -24,3 +24,28 @@ ul li{
     margin-bottom: 10px;
     margin-left: 50px;
 }
+
+/* Establecer el tamaño de letra de todos los elementos */
+* {
+  font-size: 16px;
+}
+
+/* Establecer el tamaño de letra de los encabezados h1 */
+h1 {
+  font-size: 24px;
+}
+
+/* Establecer el tamaño de letra de los párrafos */
+p {
+  font-size: 18px;
+}
+
+/* Establecer el tamaño de letra de los elementos en porcentaje */
+ul {
+  font-size: 150%;
+}
+
+/* Establecer el tamaño de letra con la medida em */
+a {
+  font-size: 1.2em;
+}
