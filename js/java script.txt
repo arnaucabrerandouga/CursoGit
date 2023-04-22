@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">   
+  <title>Descarga de un fichero PDF</title>
+  <script type="text/javascript">
+    function DownloadFromUrl(fileURL, fileName) {
+      var link = document.createElement('a');
+      link.href = fileURL;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }  
+  </script>  
+</head>
+
+<body>
+  <h1>Descarga de un fichero PDF</h1>   
+  <button
+    onClick="DownloadFromUrl('http://127.0.0.1:5500/scrum_manager.pdf',
+                             'Fichero.pdf')">
+    Descargar
+  </button>   
+</body>
+
+</html>

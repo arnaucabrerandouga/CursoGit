@@ -1,0 +1,11 @@
+ crear un encabezado de nivel 1, puedes usar la siguiente etiqueta HTML:
+
+<h1>Este es un encabezado de nivel 1</h1>
+
+crear una lista desordenada, puedes usar la siguiente etiqueta HTML:
+
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
